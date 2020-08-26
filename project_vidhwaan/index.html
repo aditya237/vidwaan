@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vidhwaan</title>
+
+  <!-- Font awesome -->
+  <script defer src="https://use.fontawesome.com/releases//v5.0.7/js/all.js"></script>
+  <script src="node_modules/@fortawesome/fontawesome-free/js/all.js" charset="utf-8"></script>
+
+  <!-- bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color:#E9ECEF;">
+  <div class="header">
+    <div class="top-head">
+      <p><i class="far fa-envelope"></i><span> contact us </span> <i class="fas fa-info-circle"></i> <span>about</span></p>
+    </div>
+    <div class="middle-head"  style="background-color:white;">
+      <img class="logo" src="https://spsti.org/wp-content/uploads/2019/05/DST-Logo-320x150.png" alt="" >
+    </div>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ACADEMICIANS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">UNIVERSITIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FORMS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">OPPORTUNITIES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                MORE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+    </div>
+  </div>
+  <div class="body row">
+    <div class="left-side col-lg-4">
+      <div class="card search-box" style="width: 22rem;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);">
+        <div class="card-body">
+          <h3 class="card-title">REFINE RESULTS</h3>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Indian University or College Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="PEC(DU)">
+            </div>
+            <div class="dropdown">
+              <label>Type</label>
+              <button class="btn btn-secondary  btn-sm  dropdown-toggle togbutton" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                -any-
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <label>Department</label>
+              <button class="btn btn-secondary  btn-sm  dropdown-toggle togbutton" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                -any-
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Electronics</a>
+                <a class="dropdown-item" href="#">Computer Science</a>
+                <a class="dropdown-item" href="#">Mechanical engineering</a>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Foriegn University</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Stanford University">
+            </div>
+            <button type="button" class="btn btn-outline-dark apply">Apply</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- righ-side -->
+    <div class="right-side col-lg-8" style="margin-top:2 rem;padding-right:0">
+      <h1>ALL ACADEMICIANS</h1>
+      <h6 style="margin-bottom:2rem" style="margin-top:2">Displaying 1-5 of 830 academicians</h6>
+
+      <div class="cards intro-card" style="width:100%">
+        <div class="card mb-3" style="max-width: 90%;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="https://thumbs.dreamstime.com/t/profile-anonymous-face-icon-gray-silhouette-person-male-businessman-profile-default-avatar-photo-placeholder-isolated-white-107003824.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title person">Somnath pal</h5>
+                <p class=" uname">United States of America</p>
+                <div class="titles">
+                  <p><i class="fas fa-graduation-cap"></i> Faculty</p>
+                  <p><i class="fas fa-university"></i> St. John's University</p>
+                  <p><i class="far fa-envelope"></i> indian23149@dst.com</p>
+                  <p><i class="fas fa-book"></i> Medical Health Science</p>
+                </div>
+                <button type="button" class="btn btn-dark" style="padding:3px 35px;">Veiw</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards intro-card" style="width:100%">
+        <div class="card mb-3" style="max-width: 90%;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="https://i1.rgstatic.net/ii/profile.image/272351203950595-1441944995622_Q512/Chhabi_Govind.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title person">Chabbi Govind</h5>
+                <p class=" uname">United States of America</p>
+                <div class="titles">
+                  <p><i class="fas fa-graduation-cap"></i> Faculty</p>
+                  <p><i class="fas fa-university"></i> OakLand University</p>
+                  <p><i class="far fa-envelope"></i> govind@oakland.edu</p>
+                  <p><i class="fas fa-book"></i> Life Science</p>
+                </div>
+                <button type="button" class="btn btn-dark" style="padding:3px 35px;">Veiw</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="cards intro-card " >
+        <div class="card mb-3" style="max-width: 90%;  ">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title person">Satish k. Walia</h5>
+                <p class=" uname">United States of America</p>
+                <div class="titles">
+                  <p><i class="fas fa-graduation-cap"></i> Faculty</p>
+                  <p><i class="fas fa-university"></i> OakLand University</p>
+                  <p><i class="far fa-envelope"></i> walia@oakland.edu</p>
+                  <p><i class="fas fa-book"></i> Life Science Science</p>
+                </div>
+                <button type="button" class="btn btn-dark" style="padding:3px 35px;">Veiw</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+  <!-- Footer -->
+
+ <footer id="footer">
+   <div class="icons">
+     <i class="footicon fab fa-twitter"></i>
+     <i class="footicon fab fa-instagram"></i>
+     <i class="footicon fab fa-facebook"></i>
+     <i class="footicon fas fa-envelope"></i>
+   </div>
+
+   <p>© Copyright 2020 Department Of Science and Technology</p>
+
+ </footer>
+
+
+</body>
+
+</html>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+/* header */
+.top-head{
+  background-color: #343A40;
+  margin: 0;
+  padding-right: 5px;
+  color: white;
+  height: 2.5rem;
+  text-align: right;
+
+}
+
+.togbutton{
+  float: right;
+}
+
+ .titles p {
+  margin: 0 2px 0 ;
+  position: relative;
+  top:10px;
+
+}
+
+.top-middle{
+  width:100%;
+  align-content: flex-end;
+}
+.logo{
+  height:100px;
+  width:20%;
+  position: relative;
+  left:80%;
+}
+
+/* middle */
+.col-lg-8 {
+  padding-right:0;
+}
+
+.search-box{
+  padding: 5px auto;
+  margin: 10px auto;
+}
+
+.apply{
+  padding :auto 4px;
+  float: right;
+}
+
+.uname{
+  opacity: .7;
+  font-size: 1.14rem;
+  font-style: italic;
+  position: relative;
+  top:-10px;
+  margin-bottom: 2px;
+
+}
+
+.person{
+  position:relative;
+  right: 10px;
+}
+
+.card-img{
+  height:233px;
+  width:233px;
+}
+
+.titles{
+  position: relative;
+  bottom:20px;
+}
+
+.intro-card{
+  border-radius: 5px;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.mb-3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.mb-3:hover{
+  animation-delay: 2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+/* footer */
+#footer{
+  height: 25%;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  width: 100%;
+}
+.footicon{
+  margin: 20px 15px 2px;
+  padding: 0px auto;
+  line-height: 4;
+}
